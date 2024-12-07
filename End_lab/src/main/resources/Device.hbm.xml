@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.klef.jfsd.exam.Device" table="device">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="brand" column="brand"/>
+        <property name="model" column="model"/>
+        <property name="price" column="price"/>
+    </class>
+</hibernate-mapping>
